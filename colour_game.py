@@ -83,6 +83,7 @@ root.title("COLOR GAME")
 
 # set the size 
 root.geometry("400x200") 
+root.configure(width=1500,height=600,bg='BLACK')
 
 # add an instructions label 
 instructions = tkinter.Label(root, text = "Type in the colour"
